@@ -9,25 +9,12 @@ class Craps_Game : public Game {
 private:
  	void setupGame();
  	void enterMainMenu();
+ 	void playCraps();
 public:
 	Craps_Game(): Game() {}
 
 	void initializeGame();
 	string getName() { return "Craps"; }
 };
-
-void Craps_Game::setupGame()
-{
-}
-
-void Craps_Game::initializeGame()
-{
-	enterMainMenu();
-}
-
-void Craps_Game::enterMainMenu()
-{
-	printMenu("Craps Menu");
-}
 
 #endif

@@ -30,7 +30,7 @@ void Casino_OS::printMainMenu()
 	while(1)
 	{
 		system("cls");
-		string input = printMenu("Test", ptrItems, menuItems.size());
+		string input = printMenu("Casino Main Menu", ptrItems, menuItems.size());
 
 		if(input == "0")
 			games[0]->initializeGame();
